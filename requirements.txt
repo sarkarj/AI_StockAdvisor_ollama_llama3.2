@@ -1,0 +1,8 @@
+streamlit
+yfinance
+numpy
+pandas
+matplotlib
+schedule
+plotly
+ollama
