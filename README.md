@@ -25,7 +25,7 @@ Step 4: Confirm that the llama3.2:latest model is installed:
 docker exec -it ollama ollama list
 ```
 
-<img src="./Img/llama3.2.png"> 
+<img src="./llama3.2.png"> 
 
 Step 5: Access the running service at *[http://localhost:11434](http://localhost:11434/)* to confirm that it's live:
 
