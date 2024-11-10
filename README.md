@@ -309,7 +309,7 @@ Step 12: Run the application *[http://localhost:8501](http://localhost:8501)*
 
 <img src="./Img/AI_Stock_Advisor.png"> 
 
-Improvements and Future Scope:
+# Improvements and Future Scope
 
 Historical Analysis: Integrate historical data for deeper trend analysis.
 Real-Time Alerts: Add real-time alerts for significant stock movements.
