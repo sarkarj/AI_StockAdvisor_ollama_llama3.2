@@ -35,11 +35,11 @@ curl -X POST http://localhost:11434/api/generate \
      -H "Content-Type: application/json" \
      -d '{"model":"llama3.2:latest", "prompt":"What is LLM?", "stream":false}'
 ```
-<img src="./Img/llama3.2_test.png"> 
+<img src="./llama3.2_test.png"> 
 
 Step 7: Sample python file for API Testing - [ollama.py](./ollama.py), to test the ollama API from code:
 
-<img src="./Img/ollama_response.png">
+<img src="./ollama_response.png">
 
 # Extending the Python Application to an AI Stock Advisor
 
@@ -47,7 +47,7 @@ Enhance this idea to create a personal stock advisor application, including step
 
 How It Works - This application tracks stock data in real-time, calculates technical indicators, and provides predictions using the Ollama LLM. It fetches data at a set interval, performs technical analysis, and generates insights through the ollama API.
 
-<img src="./Img/processflow.png">
+<img src="./processflow.png">
 
 Step 8: Set Up application structure:
 
@@ -307,7 +307,7 @@ docker run -d -p 8501:8501 --name stock-tracker stock-tracker
 
 Step 12: Run the application *[http://localhost:8501](http://localhost:8501)*
 
-<img src="./Img/AI_Stock_Advisor.png"> 
+<img src="./AI_Stock_Advisor.png"> 
 
 # Improvements and Future Scope
 
