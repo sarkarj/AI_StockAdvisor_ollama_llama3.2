@@ -312,5 +312,7 @@ Step 12: Run the application *[http://localhost:8501](http://localhost:8501)*
 # Improvements and Future Scope
 
 Historical Analysis: Integrate historical data for deeper trend analysis.
+
 Real-Time Alerts: Add real-time alerts for significant stock movements.
+
 Additional Gen AI Applications: Extend the app to include personal AI assistants or decision-making tools using the Ollama model.
