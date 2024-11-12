@@ -238,7 +238,7 @@ def fetch_key_data(stock_symbol):
     rsi = 100 - (100 / (1 + (hist['Close'].diff().iloc[1:].gt(0).sum() / hist['Close'].diff().iloc[1:].lt(0).sum())))
     upper_band = float(hist['Close'].rolling(window=20).mean().iloc[-1] + 2 * hist['Close'].rolling(window=20).std().iloc[-1])
     lower_band = float(hist['Close'].rolling(window=20).mean().iloc[-1] - 2 * hist['Close'].rolling(window=20).std().iloc[-1])
-    current_price = float(hist['Close'].iloc[-1])
+    current_price = stock.info.get("regularMarketPrice",float(hist['Close'].iloc[-1]))
 
     # MACD Calculation
     short_ema = hist['Close'].ewm(span=12, adjust=False).mean()
